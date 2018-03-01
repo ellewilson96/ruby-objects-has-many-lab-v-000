@@ -28,4 +28,12 @@ class Author
   def self.post_count
     @@post_count
   end
+
+  def author_name
+    if self.title.author = nil
+      nil
+    else
+      self.title.author
+    end
+  end
 end
