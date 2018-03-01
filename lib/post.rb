@@ -4,4 +4,12 @@ class Post
   def initialize(title)
     @title = title
   end
+
+  def author_name(title)
+    if title.author = nil
+      nil
+    else
+      title.author
+    end
+  end
 end
