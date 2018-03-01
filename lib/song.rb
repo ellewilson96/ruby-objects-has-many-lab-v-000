@@ -9,3 +9,4 @@ class Song
       Song.artist = self
   end
 end
+end
