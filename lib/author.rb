@@ -33,7 +33,7 @@ class Author
     if title.author = nil
       nil
     else
-      self.title.author
+      title.author
     end
   end
 end
