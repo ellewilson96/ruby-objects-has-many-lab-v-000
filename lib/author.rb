@@ -29,11 +29,5 @@ class Author
     @@post_count
   end
 
-  def author_name(title)
-    if title.author = nil
-      nil
-    else
-      title.author
-    end
-  end
+
 end
