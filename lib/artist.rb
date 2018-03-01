@@ -1,5 +1,5 @@
 class Artist
-  attr_accessor :name, :artist
+  attr_accessor :name
 
 
   def initialize(name)
@@ -14,6 +14,5 @@ class Artist
   def add_song(song)
     song = Song.new(name)
     @songs << song
-    song.artist = self
   end
 end
